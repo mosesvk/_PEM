@@ -14,7 +14,7 @@ import Settings from './Settings';
 import { withTranslation } from '~/i18n';
 import MobileMenu from './MobileMenu';
 import logo from '~/public/images/PEM_logo.webp';
-import brand from '~/public/text/brand';
+// import brand from '~/public/text/brand';
 import routeLink from '~/public/text/link';
 import useStyles from './header-style';
 import navMenu from './menu';
@@ -108,7 +108,7 @@ function Header(props) {
                 ) : (
                   <AnchorLink href="#home">
                     <img src={logo} alt="logo" />
-                    {brand.agency.name}
+                    {/* {brand.agency.name} */}
                   </AnchorLink>
                 )}
               </div>

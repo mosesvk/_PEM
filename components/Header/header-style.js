@@ -137,8 +137,8 @@ const headerStyles = makeStyles(theme => ({
     },
     '& img': {
       transition: 'all 0.3s ease-out',
-      width: 48,
-      height: 48,
+      width: '10rem',
+      height: '5rem',
       marginRight: theme.spacing(),
       [theme.breakpoints.only('md')]: {
         marginLeft: theme.spacing(2)
