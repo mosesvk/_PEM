@@ -25,6 +25,7 @@ function About(props) {
 
   const classes = useStyles();
   const title = useTitle();
+
   return (
     <div className={classes.root}>
       <Container fixed>
