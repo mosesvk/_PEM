@@ -72,7 +72,7 @@ function Landing(props) {
   const { onToggleDark, onToggleDir } = props;
 
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>
           { brand.agency.name }
@@ -122,7 +122,7 @@ function Landing(props) {
           <Notification />
         </Hidden>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
